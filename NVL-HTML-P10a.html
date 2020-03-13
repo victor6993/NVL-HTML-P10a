@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <meta name="Author" content="Víctor Wang">
+ <title>Document</title>
+ <style>
+     * {
+         padding: 5px 5px;
+         margin: 10px 0;
+         
+     }
+ </style>
+</head>
+<body>
+    <form action="index.php" method="post">
+        <div>
+            <label for="cp">Código Postal:</label>
+            <input type="text" id="cp">
+        </div>
+        <div>
+            <label for="nivelSatisfaccion">Nivel de satisfacción con el producto:</label>
+            <input type="radio" value="1"> 1
+            <input type="radio" value="2"> 2
+            <input type="radio" value="3"> 3
+            <input type="radio" value="4"> 4
+            <input type="radio" value="5"> 5
+        </div>
+        <div>
+            <label for="email">Introduzca su Email:</label>
+            <input type="text" id="email">
+        </div>
+        <div>
+            <label for="gustado">Lo que le ha gustado:</label>
+            <textarea id="gustado"></textarea>
+        </div>
+        <div>
+            <label for="nogustado">Lo que no le ha gustado:</label>
+            <textarea id="nogustado"></textarea>
+        </div>
+        <div>
+            <label for="modelo">Modelo adquirido:</label>
+            <select id="modelo">
+                <option value="">Seleccione su modelo</option>
+                <option value="8GB Ram - 512GB HHD - 15,6" ">8GB Ram - 512GB HHD - 15,6"</option>
+                <option value="8GB Ram - 1TB HHD - 15,6" ">8GB Ram - 1TB HHD - 15,6"</option>
+                <option value="16GB Ram - 1TB HHD - 15,6" ">16GB Ram - 1TB HHD - 15,6"</option>
+                <option value="16GB Ram - 512GB SSD - 14" ">16GB Ram - 512GB SSD - 14"</option>
+                <option value="32GB Ram - 1TB SSD - 14" ">32GB Ram - 1TB SSD - 14"</option>
+            </select>
+        </div>
+        <div>
+            <label for="modelo1">Modelo adquirido:</label>
+            <br>
+            <input type="radio" value="8GB Ram - 512GB HHD - 15,6" "> 8GB Ram - 512GB HHD - 15,6"
+            <br>
+            <input type="radio" value="8GB Ram - 1TB HHD - 15,6" "> 8GB Ram - 1TB HHD - 15,6"
+            <br>
+            <input type="radio" value="16GB Ram - 1TB HHD - 15,6" "> 16GB Ram - 1TB HHD - 15,6"
+            <br>
+            <input type="radio" value="16GB Ram - 512GB SSD - 14" "> 16GB Ram - 512GB SSD - 14"
+            <br>
+            <input type="radio" value="32GB Ram - 1TB SSD - 14" "> 32GB Ram - 1TB SSD - 14"
+        </div>
+    </form>
+ 
+</body>
+</html>
